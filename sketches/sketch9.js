@@ -18,7 +18,7 @@ let sketch9 = function (p) {
   };
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     rectW = p.width / col;
     rectH = p.height / row;
     img.resize(p.width, p.height);

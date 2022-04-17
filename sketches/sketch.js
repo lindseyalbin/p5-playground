@@ -15,7 +15,7 @@ let sketch = function (p) {
     // let boxWidth = element.clientWidth;
     // let boxHeight = element.clientHeight;
     // let canvas = p.createCanvas(p.windowWidth, p.windowHeight);
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.background("blue");
 
     canvas.mouseOver(startRunning);

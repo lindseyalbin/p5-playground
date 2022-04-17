@@ -18,7 +18,7 @@ let sketch6 = function (p) {
   };
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     myImgs[0].resize(60, 50);
     myImgs[1].resize(60, 50);
     p.background(10);

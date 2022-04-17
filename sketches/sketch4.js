@@ -15,7 +15,7 @@ let sketch4 = function (p) {
   };
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.background(207, 255, 64);
     // console.log(myList);
 

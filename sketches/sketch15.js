@@ -16,7 +16,7 @@ let sketch15 = function (p) {
   var fr;
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.pixelDensity(1);
 
     cols = p.floor(p.width / scl);

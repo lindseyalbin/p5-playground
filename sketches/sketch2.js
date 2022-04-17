@@ -8,7 +8,7 @@ let sketch2 = function (p) {
   }
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.background(0);
 
     canvas.mouseOver(startRunning);

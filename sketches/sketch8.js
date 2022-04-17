@@ -13,7 +13,7 @@ let sketch8 = function (p) {
   let rectH;
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     rectW = p.width / col;
     rectH = p.height / row;
     p.frameRate(3);

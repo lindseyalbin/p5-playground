@@ -18,7 +18,7 @@ let sketch5 = function (p) {
   };
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.background(220);
 
     canvas.mouseOver(startRunning);

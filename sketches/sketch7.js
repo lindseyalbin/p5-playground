@@ -10,7 +10,7 @@ let sketch7 = function (p) {
   let tiles = [];
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
 
     canvas.mouseOver(startRunning);
     canvas.mouseOut(stopRunning);

@@ -8,7 +8,7 @@ let sketch14 = function (p) {
   }
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400, p.WEBGL);
+    let canvas = p.createCanvas(425, 425, p.WEBGL);
     p.angleMode(p.DEGREES);
 
     canvas.mouseOver(startRunning);

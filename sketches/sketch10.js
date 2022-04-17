@@ -12,7 +12,7 @@ let sketch10 = function (p) {
   let margin = 30;
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     p.textSize(15);
     p.textAlign(p.CENTER, p.CENTER);
     p.angleMode(p.DEGREES);

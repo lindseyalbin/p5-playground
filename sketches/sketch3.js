@@ -12,7 +12,7 @@ let sketch3 = function (p) {
   let y = 200;
 
   p.setup = function () {
-    let canvas = p.createCanvas(400, 400);
+    let canvas = p.createCanvas(425, 425);
     // background(220);
     canvas.mouseOver(startRunning);
     canvas.mouseOut(stopRunning);
