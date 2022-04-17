@@ -42,7 +42,7 @@ let sketch16 = function (p) {
     p.noCursor();
     imgC.resize(110, 100);
     imgM.resize(50, 40);
-    imgG.resize(500, 400);
+    imgG.resize(500, 425);
     particle = new Particle();
 
     canvas.mouseOver(startRunning);
